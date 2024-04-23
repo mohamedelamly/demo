@@ -2,8 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Practice Suite">
     <test name="testPass">
+        <parameter name="className" value="${className}"/>
         <classes>
-            <class name="tests.pass"/>
+            <class name="${className}"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
